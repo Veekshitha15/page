@@ -25,7 +25,7 @@ body {
 
 .hero-bg {
   min-height: 981px;
-  background: var(--soft) url("./assets/hero-bg.svg") no-repeat top center / 1512px 981px;
+  background: var(--soft) url("/assets/hero-bg.svg") no-repeat top center / 1512px 981px;
   padding-top: 51px;
   position: relative;
 }

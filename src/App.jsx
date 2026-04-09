@@ -1,0 +1,172 @@
+function App() {
+  return (
+    <main className="page">
+      <section className="hero-bg">
+        <header className="navbar">
+          <img src="/assets/logo-main-6060d6.png" alt="Spacelance logo" className="logo" />
+          <nav>
+            <a className="active" href="#">Home</a>
+            <a href="#">Find work</a>
+            <a href="#">Find Freelancers</a>
+            <a href="#">Log In</a>
+            <a href="#">Sign Up</a>
+          </nav>
+          <button>Post a project</button>
+        </header>
+
+        <div className="hero-content">
+          <div>
+            <h1>Are you looking for Freelancers?</h1>
+            <p>
+              Hire Great Freelancers, Fast. Spacelance helps you hire elite freelancers at a
+              moment&apos;s notice
+            </p>
+            <button className="primary">Hire a freelancer</button>
+          </div>
+          <img src="/assets/hero-worker-36d880.png" alt="Working remotely" className="hero-image" />
+        </div>
+
+        <div className="search-bar">
+          <span>search freelance work</span>
+          <img src="/assets/search-icon-person.png" alt="Search icon" />
+        </div>
+      </section>
+
+      <section className="how-it-works">
+        <article>
+          <div className="avatar"><img src="/assets/step-avatar-1.png" alt="Create account" /></div>
+          <h3>Create Account</h3>
+          <p>First you have to create a account here</p>
+        </article>
+        <article>
+          <div className="avatar"><img src="/assets/step-avatar-2.png" alt="Search work" /></div>
+          <h3>Search work</h3>
+          <p>Search the best freelance work here</p>
+        </article>
+        <article>
+          <div className="avatar"><img src="/assets/step-avatar-3.png" alt="Save and apply" /></div>
+          <h3>Save and apply</h3>
+          <p>Apply or save and start your work</p>
+        </article>
+      </section>
+
+      <section className="stats">
+        <div className="stats-image-wrap">
+          <img src="/assets/find-best-main-517c2f.png" alt="Freelancer" />
+          <div className="floating a">300+<br />freelance work Posted</div>
+          <div className="floating b">500+<br />freelancers</div>
+        </div>
+        <div className="stats-copy">
+          <h2>Find The Best Freelancers Here</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat bibendum ornare urna,
+            cursus eget convallis. Feugiat imperdiet posuere justo, ultrices interdum sed orci nunc,
+            mattis. Ipsum viverra viverra neque adipiscing arcu, quam dictum. Dui mi viverra dui,
+            sit accumsan, tincidunt massa. Dui cras magnis.
+          </p>
+        </div>
+      </section>
+
+      <section className="recent">
+        <div className="section-head">
+          <div>
+            <p>The latest freelance work!</p>
+            <h2>Recently Posted Works</h2>
+          </div>
+          <img src="/assets/recently-accent.svg" alt="" />
+        </div>
+        <div className="cards">
+          <article className="work-card">
+            <img src="/assets/work-material-ui.png" alt="Logo Design" className="icon" />
+            <h3>Logo Design</h3>
+            <p>Need a professional logo with writing underneath for our jewellery company</p>
+            <div><span>Highest bid<br />$500</span><a href="#">Apply now</a></div>
+          </article>
+          <article className="work-card">
+            <img src="/assets/work-canva.png" alt="Graphic Design" className="icon" />
+            <h3>Graphic Design</h3>
+            <p>We need a graphic designer with UI/UX skills for our Furniture company</p>
+            <div><span>Highest bid<br />$500</span><a href="#">Apply now</a></div>
+          </article>
+          <article className="work-card">
+            <img src="/assets/work-account.png" alt="Need a SEO" className="icon" />
+            <h3>Need a SEO</h3>
+            <p>Need a SEO for our company who will let our company to a higher level</p>
+            <div><span>Highest bid<br />$300</span><a href="#">Apply now</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section className="categories">
+        <h2>Choose Different Category</h2>
+        <div className="category-grid">
+          <figure><img src="/assets/cat-graphic.png" alt="" /><figcaption>Graphic&amp;Design</figcaption></figure>
+          <figure><img src="/assets/cat-flyer.png" alt="" /><figcaption>Cartoon Animation</figcaption></figure>
+          <figure><img src="/assets/cat-logo.png" alt="" /><figcaption>Illustration</figcaption></figure>
+          <figure><img src="/assets/cat-article.png" alt="" /><figcaption>Flyers &amp; Vouchers</figcaption></figure>
+          <figure><img src="/assets/cat-cartoon.png" alt="" /><figcaption>Logo Design</figcaption></figure>
+          <figure><img src="/assets/cat-illustration.png" alt="" /><figcaption>Social graphics</figcaption></figure>
+          <figure><img src="/assets/cat-social.png" alt="" /><figcaption>Article writing</figcaption></figure>
+          <figure><img src="/assets/cat-video.png" alt="" /><figcaption>Video Editing</figcaption></figure>
+        </div>
+        <button className="more">More Categories</button>
+      </section>
+
+      <section className="portfolios">
+        <div className="port-head">
+          <p>Logos, websites, book covers &amp; more!</p>
+          <h2>Checkout The Best Portfolios Here</h2>
+        </div>
+        <div className="portfolio-cards">
+          <article className="portfolio-card">
+            <img src="/assets/portfolio-bunny.png" alt="" className="thumb" />
+            <div className="meta"><h4>Bunny.design</h4><p>UI/UX Designer</p></div>
+            <img src="/assets/arrow-right-1.svg" alt="" className="arrow" />
+          </article>
+          <article className="portfolio-card">
+            <img src="/assets/portfolio-bhaskar.png" alt="" className="thumb" />
+            <div className="meta"><h4>Bhaskar Tiwari</h4><p>Graphic Designer</p></div>
+            <img src="/assets/arrow-right-2.svg" alt="" className="arrow" />
+          </article>
+          <article className="portfolio-card">
+            <img src="/assets/portfolio-aksara.png" alt="" className="thumb" />
+            <div className="meta"><h4>Aksara Joshi</h4><p>Graphic Designer</p></div>
+            <img src="/assets/arrow-right-3.svg" alt="" className="arrow" />
+          </article>
+        </div>
+        <img src="/assets/portfolio-dots.svg" alt="" className="dots" />
+      </section>
+
+      <section className="newsletter">
+        <h2>Newsletter Subscription</h2>
+        <p>Subscribe to our newsletter to get new freelance work and projects</p>
+        <div className="newsletter-form">
+          <input type="email" placeholder="Enter your email address" />
+          <button>Subscribe</button>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <img src="/assets/logo-footer.png" alt="Spacelance logo" className="footer-logo" />
+        <p className="about">
+          Powerful Freelance Marketplace System with ability to change the Users (Freelancers &
+          Clients)
+        </p>
+        <div className="links">
+          <p>For Clients<br />Find Freelancers<br />Post Project<br />Refund Policy<br />Privacy Policy</p>
+          <p>For Freelancers<br />Find Work<br />Create Account</p>
+          <div className="contact">
+            <strong>Call Us</strong>
+            <p><img src="/assets/icon-location.svg" alt="" /> Kenya</p>
+            <p><img src="/assets/icon-phone.svg" alt="" /> +25470000000</p>
+            <p><img src="/assets/icon-email.svg" alt="" /> bluelance@gmail.com</p>
+          </div>
+        </div>
+        <img src="/assets/social-icons.svg" alt="Social links" className="socials" />
+        <p className="copyright">2022 Spacelance. All right reserved</p>
+      </footer>
+    </main>
+  )
+}
+
+export default App
