@@ -122,8 +122,9 @@ h1 {
 
 .search-bar {
   position: absolute;
-  left: 391px;
-  top: 621px;
+  left: 50%;
+  top: 660px;
+  transform: translateX(-50%);
   width: 420px;
   height: 76px;
   border-radius: 10px;
@@ -135,6 +136,7 @@ h1 {
   padding: 0 20px 0 25px;
   color: var(--muted);
   font-size: 20px;
+  z-index: 3;
 }
 
 .search-bar img {
